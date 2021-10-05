@@ -26,7 +26,6 @@
 		5745E86F26DD7E9E000818B5 /* LocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E86E26DD7E9E000818B5 /* LocationsController.swift */; };
 		5745E87126DD812C000818B5 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E87026DD812C000818B5 /* UserController.swift */; };
 		5745E87326DD842D000818B5 /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E87226DD842D000818B5 /* UserError.swift */; };
-		5745E87926DE9B33000818B5 /* LocationListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E87826DE9B33000818B5 /* LocationListTableViewController.swift */; };
 		5745E87E26DE9E15000818B5 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E87D26DE9E15000818B5 /* LocationTableViewCell.swift */; };
 		5745E88026DEBE5B000818B5 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E87F26DEBE5B000818B5 /* LocationDetailViewController.swift */; };
 		5745E88226DFF7FF000818B5 /* ActivitySpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E88126DFF7FF000818B5 /* ActivitySpinnerViewController.swift */; };
@@ -60,7 +59,6 @@
 		5745E86E26DD7E9E000818B5 /* LocationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
 		5745E87026DD812C000818B5 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		5745E87226DD842D000818B5 /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
-		5745E87826DE9B33000818B5 /* LocationListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListTableViewController.swift; sourceTree = "<group>"; };
 		5745E87D26DE9E15000818B5 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		5745E87F26DEBE5B000818B5 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		5745E88126DFF7FF000818B5 /* ActivitySpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySpinnerViewController.swift; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				57D86696270C270000BFA79B /* LocationsTVViewController.swift */,
-				5745E87826DE9B33000818B5 /* LocationListTableViewController.swift */,
 				5745E87F26DEBE5B000818B5 /* LocationDetailViewController.swift */,
 				5745E88326DFF8AE000818B5 /* UIViewExtension.swift */,
 				5745E88726E013A1000818B5 /* MapViewController.swift */,
@@ -322,7 +319,6 @@
 				5745E88226DFF7FF000818B5 /* ActivitySpinnerViewController.swift in Sources */,
 				5743718426E7C7D60073DCC8 /* ChallengeViewController.swift in Sources */,
 				5745E84E26DD6A93000818B5 /* CustomTabBar.swift in Sources */,
-				5745E87926DE9B33000818B5 /* LocationListTableViewController.swift in Sources */,
 				5745E88026DEBE5B000818B5 /* LocationDetailViewController.swift in Sources */,
 				5745E83326DD69BD000818B5 /* AppDelegate.swift in Sources */,
 				5745E85426DD6B98000818B5 /* TabBarVC.swift in Sources */,
