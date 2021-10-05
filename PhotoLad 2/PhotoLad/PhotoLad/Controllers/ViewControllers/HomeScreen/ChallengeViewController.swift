@@ -58,7 +58,7 @@ class ChallengeViewController: UIViewController {
         shuffleButton.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         shuffleButton.layer.shadowOpacity = 0.3
         shuffleButton.layer.shadowOffset = CGSize(width: 4, height: 4)
-        shuffleButton.layer.opacity = 0.8
+        shuffleButton.layer.opacity = 0.85
         
         titleLabel.text = challenge?.title
         challengeLabel.text = challenge?.detail

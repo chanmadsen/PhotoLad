@@ -106,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2140-3-2" translatesAutoresizingMaskIntoConstraints="NO" id="pD0-ct-OVg">
-                                <rect key="frame" x="0.0" y="14" width="428" height="899"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZM6-Bf-Zm3">
                                 <rect key="frame" x="0.0" y="140" width="428" height="786"/>
@@ -129,7 +129,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.41563892359999999" green="0.51375305650000003" blue="0.52934157849999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.41568627450980389" green="0.51372549019607838" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="Eyq-x7-VkN" firstAttribute="top" secondItem="27P-eS-81m" secondAttribute="top" constant="15" id="Byu-na-pcb"/>
                                                         <constraint firstItem="Eyq-x7-VkN" firstAttribute="leading" secondItem="27P-eS-81m" secondAttribute="leading" constant="30" id="m4H-MZ-BMj"/>
@@ -158,14 +158,14 @@
                         <viewLayoutGuide key="safeArea" id="ZZ4-hq-En3"/>
                         <color key="backgroundColor" red="0.6940541267" green="0.73337382080000002" blue="0.73323780299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pD0-ct-OVg" firstAttribute="top" secondItem="ZZ4-hq-En3" secondAttribute="top" constant="-126" id="KUq-ru-jsc"/>
+                            <constraint firstItem="pD0-ct-OVg" firstAttribute="top" secondItem="ZZ4-hq-En3" secondAttribute="top" constant="-140" id="KUq-ru-jsc"/>
                             <constraint firstItem="ZM6-Bf-Zm3" firstAttribute="top" secondItem="ZZ4-hq-En3" secondAttribute="top" id="QQ6-P5-5Z4"/>
                             <constraint firstItem="ZM6-Bf-Zm3" firstAttribute="leading" secondItem="ZZ4-hq-En3" secondAttribute="leading" id="RcV-aZ-KeK"/>
                             <constraint firstItem="ZM6-Bf-Zm3" firstAttribute="trailing" secondItem="ZZ4-hq-En3" secondAttribute="trailing" id="V1R-q5-xF9"/>
                             <constraint firstItem="ZZ4-hq-En3" firstAttribute="trailing" secondItem="pD0-ct-OVg" secondAttribute="trailing" id="V53-cN-Z53"/>
                             <constraint firstAttribute="bottom" secondItem="ZM6-Bf-Zm3" secondAttribute="bottom" id="cz6-Ja-vZZ"/>
                             <constraint firstItem="ZM6-Bf-Zm3" firstAttribute="top" secondItem="ZZ4-hq-En3" secondAttribute="top" id="mKp-Hy-x3d"/>
-                            <constraint firstItem="ZZ4-hq-En3" firstAttribute="bottom" secondItem="pD0-ct-OVg" secondAttribute="bottom" constant="-70" id="pql-qK-bmp"/>
+                            <constraint firstItem="ZZ4-hq-En3" firstAttribute="bottom" secondItem="pD0-ct-OVg" secondAttribute="bottom" constant="-83" id="pql-qK-bmp"/>
                             <constraint firstItem="pD0-ct-OVg" firstAttribute="leading" secondItem="ZZ4-hq-En3" secondAttribute="leading" id="rHH-yj-SVr"/>
                         </constraints>
                     </view>
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XRM-Yb-P38" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-338.70967741935482" y="1130.8914386584288"/>
+            <point key="canvasLocation" x="-339.2523364485981" y="1130.6695464362851"/>
         </scene>
         <!--Challenge View Controller-->
         <scene sceneID="7zk-7W-OS8">
@@ -489,7 +489,7 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hUv-xe-2mA"/>
-                        <color key="backgroundColor" red="0.6940541267" green="0.73337382080000002" blue="0.73323780299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.69411764705882351" green="0.73333333333333328" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.6940541267" green="0.73337382080000002" blue="0.73323780299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="y4Y-cJ-jZ6" firstAttribute="leading" secondItem="hUv-xe-2mA" secondAttribute="leading" constant="70" id="0NL-DZ-2bG"/>
@@ -642,7 +642,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="wKm-5G-CBQ">
                         <rect key="frame" x="0.0" y="44" width="428" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.6940541267" green="0.73337382080000002" blue="0.73323780299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -668,7 +668,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Rb0-VO-6HK">
                         <rect key="frame" x="0.0" y="44" width="428" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.6940541267" green="0.73337382080000002" blue="0.73323780299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
