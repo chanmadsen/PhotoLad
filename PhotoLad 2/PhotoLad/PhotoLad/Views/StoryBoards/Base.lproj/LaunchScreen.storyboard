@@ -16,16 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2140-3-2" translatesAutoresizingMaskIntoConstraints="NO" id="raO-sO-hqq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2140-3" translatesAutoresizingMaskIntoConstraints="NO" id="y9X-Iv-TGZ">
-                                <rect key="frame" x="24" y="80" width="366" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHOTOLAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPz-EO-bEG">
-                                <rect key="frame" x="98" y="428" width="218" height="40"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="35"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="BhA-lK-fVY">
+                                <rect key="frame" x="92" y="341.5" width="230" height="223"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHOTOLAD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPz-EO-bEG">
+                                <rect key="frame" x="62" y="308" width="290" height="48.5"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.403873384" green="0.51375275850000002" blue="0.5254203677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,24 +35,20 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="y9X-Iv-TGZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="10P-lf-ewX"/>
-                            <constraint firstItem="y9X-Iv-TGZ" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.9" id="4Zu-pS-K1K"/>
-                            <constraint firstItem="kPz-EO-bEG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5DT-ny-ppI"/>
-                            <constraint firstItem="raO-sO-hqq" firstAttribute="centerX" secondItem="y9X-Iv-TGZ" secondAttribute="centerX" id="A06-yv-L0i"/>
-                            <constraint firstItem="raO-sO-hqq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GQw-qm-q0d"/>
-                            <constraint firstItem="kPz-EO-bEG" firstAttribute="width" secondItem="y9X-Iv-TGZ" secondAttribute="width" multiplier="0.595628" id="Gd7-9j-2Gh"/>
-                            <constraint firstItem="raO-sO-hqq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ILH-fq-3dE"/>
-                            <constraint firstItem="raO-sO-hqq" firstAttribute="centerY" secondItem="y9X-Iv-TGZ" secondAttribute="centerY" id="LA7-rL-jwk"/>
+                            <constraint firstItem="kPz-EO-bEG" firstAttribute="width" secondItem="y9X-Iv-TGZ" secondAttribute="width" multiplier="0.7" id="Gd7-9j-2Gh"/>
+                            <constraint firstAttribute="bottom" secondItem="y9X-Iv-TGZ" secondAttribute="bottom" id="HJZ-RN-GeO"/>
+                            <constraint firstItem="BhA-lK-fVY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="IOs-zV-KoA"/>
+                            <constraint firstItem="BhA-lK-fVY" firstAttribute="top" secondItem="kPz-EO-bEG" secondAttribute="bottom" constant="-15" id="KWo-Sr-zKi"/>
                             <constraint firstItem="kPz-EO-bEG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PEW-kC-03b"/>
-                            <constraint firstItem="raO-sO-hqq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Wa2-08-dSg"/>
+                            <constraint firstItem="y9X-Iv-TGZ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Sex-km-xny"/>
+                            <constraint firstItem="BhA-lK-fVY" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.248884" id="VkB-qU-dly"/>
+                            <constraint firstItem="BhA-lK-fVY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c4R-Tb-nXP"/>
                             <constraint firstItem="kPz-EO-bEG" firstAttribute="height" secondItem="y9X-Iv-TGZ" secondAttribute="height" multiplier="0.0543478" id="cSt-wt-OCf"/>
-                            <constraint firstItem="y9X-Iv-TGZ" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.884058" id="kF0-wK-31z"/>
+                            <constraint firstItem="y9X-Iv-TGZ" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="kF0-wK-31z"/>
+                            <constraint firstItem="BhA-lK-fVY" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.555556" id="p5Q-aC-nvO"/>
                             <constraint firstItem="y9X-Iv-TGZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="s51-la-xbi"/>
-                            <constraint firstItem="raO-sO-hqq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="zPY-9f-ko2"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="backgroundImage" destination="raO-sO-hqq" id="fQ3-xi-g6C"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +56,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_2140-3" width="1152" height="2048"/>
-        <image name="IMG_2140-3-2" width="1152" height="2048"/>
+        <image name="1024" width="512" height="512"/>
+        <image name="IMG_2140-3" width="576" height="1024"/>
     </resources>
 </document>

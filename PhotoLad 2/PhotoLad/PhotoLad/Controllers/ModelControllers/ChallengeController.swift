@@ -31,13 +31,13 @@ class ChallengeController {
         
         let ten = PhotoChallenge(title: "Panoramic Picture", challenge: "A popular technique for landscapes, panoramic photography enlarges the viewpoint beyond the normal size of a camera lens. To ensure there are no gaps in your panoramic shot, overlap your image by 15-30%. Don’t forget that panos work well for vertical shots, too, like waterfalls and deep canyons.")
         
-        let eleven = PhotoChallenge(title: "Sunset", challenge: "For maximum beauty, be sure to slightly underexpose the sunset for rich and dramatic colors. Use manual mode and a fast shutter speed for underexposure, or use aperture priority with exposure compensation. Make your sunset even more magnificent by arranging an object or scene in the foreground of the sunset, like a lake or mountain.")
+        let eleven = PhotoChallenge(title: "Sunset", challenge: "For maximum beauty, be sure to slightly underexpose the sunset for rich and dramatic colors. Make your sunset even more magnificent by arranging an object or scene in the foreground of the sunset, like a lake or mountain.")
         
         let twelve = PhotoChallenge(title: "Fog", challenge: "Mist and fog are natural elements that can enhance the beauty of your photography. Check the weather to determine when fog might pop up.")
         
         let thirteen = PhotoChallenge(title: "Cityscapes: Day", challenge: "Hovering skyscrapers and diverse skylines are part of what makes cityscapes such attractive photography. For a cityscapes project, try different vantage points across the city to see what works best (think: a popular lookout compared with a more secret locale).")
         
-        let fourteen = PhotoChallenge(title: "Cityscapes: Night", challenge: "Hovering skyscrapers and diverse skylines are part of what makes cityscapes such attractive photography. For a cityscapes project, try different vantage points across the city to see what works best (think: a popular lookout compared with a more secret locale). Prepare for an after sunset shoot, allowing the city lights to pop against the dark sky. Remember to use a wide angle lens to cover as much ground as possible.")
+        let fourteen = PhotoChallenge(title: "Cityscapes: Night", challenge: "For a cityscapes project, try different vantage points across the city to see what works best. Prepare for an after sunset shoot, allowing the city lights to pop against the dark sky. Remember to use a wide angle lens to cover as much ground as possible.")
         
         let fifteen = PhotoChallenge(title: "Water: Rain or Oceans", challenge: "Pack along a lens-friendly cloth to remove splashes and water marks. Plan to get wet if you’re banking on a stunning water shot.")
         

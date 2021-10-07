@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5743717E26E2920E0073DCC8 /* GearController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743717D26E2920E0073DCC8 /* GearController.swift */; };
-		5743718226E296670073DCC8 /* GearDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743718126E296670073DCC8 /* GearDetailViewController.swift */; };
 		5743718426E7C7D60073DCC8 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743718326E7C7D50073DCC8 /* ChallengeViewController.swift */; };
 		5743718626E7C8190073DCC8 /* PhotoChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743718526E7C8190073DCC8 /* PhotoChallenge.swift */; };
 		5743718826E7C8440073DCC8 /* ChallengeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743718726E7C8440073DCC8 /* ChallengeController.swift */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		5743717D26E2920E0073DCC8 /* GearController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearController.swift; sourceTree = "<group>"; };
-		5743718126E296670073DCC8 /* GearDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearDetailViewController.swift; sourceTree = "<group>"; };
 		5743718326E7C7D50073DCC8 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
 		5743718526E7C8190073DCC8 /* PhotoChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoChallenge.swift; sourceTree = "<group>"; };
 		5743718726E7C8440073DCC8 /* ChallengeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeController.swift; sourceTree = "<group>"; };
@@ -204,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				57D86694270C1E1100BFA79B /* GearTViewController.swift */,
-				5743718126E296670073DCC8 /* GearDetailViewController.swift */,
 			);
 			path = GearScreen;
 			sourceTree = "<group>";
@@ -334,7 +331,6 @@
 				5745E85E26DD6DAD000818B5 /* Location.swift in Sources */,
 				5745E88826E013A1000818B5 /* MapViewController.swift in Sources */,
 				5745E86D26DD7C02000818B5 /* LocationError.swift in Sources */,
-				5743718226E296670073DCC8 /* GearDetailViewController.swift in Sources */,
 				5745E83526DD69BD000818B5 /* SceneDelegate.swift in Sources */,
 				5745E87326DD842D000818B5 /* UserError.swift in Sources */,
 				5743718826E7C8440073DCC8 /* ChallengeController.swift in Sources */,

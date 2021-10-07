@@ -34,7 +34,7 @@ class TabBarVC: UITabBar {
     
     override func draw(_ rect: CGRect) {
         self.addShape()
-        self.unselectedItemTintColor = #colorLiteral(red: 0.7568627451, green: 0.7960784314, blue: 0.8039215686, alpha: 1)
+        self.unselectedItemTintColor = #colorLiteral(red: 0.7567946315, green: 0.7961222529, blue: 0.803817749, alpha: 1)
         self.tintColor = #colorLiteral(red: 0.7568627451, green: 0.7960784314, blue: 0.8039215686, alpha: 1)
     }
     

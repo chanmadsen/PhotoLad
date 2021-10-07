@@ -8,35 +8,47 @@
 import Foundation
 import UIKit
 
-class GearController {
+class GearListController {
+    ///shared instance
+    static let shared = GearListController()
     
-    static let shared = GearController()
+    ///Source of Truth
+    var gearList: [GearList] = []
     
-    var gears: [Gear] = []
     
+    //MARK: - CRUD Methods
     
-    //MARK: - CRUD
-    func createItem(name: String, detail: String?, gearPhoto: UIImage?){
-        let newItem = Gear(name: name, detail: detail, gearPhoto: gearPhoto)
-        gears.append(newItem)
+    func createItem(item: String, quantity: String?){
+        let newItem = GearList(item: item, quantity: quantity)
+        gearList.append(newItem)
         saveToPersistenceStore()
     }
     
-    func updateItem(with gear: Gear, name: String, detail: String?, gearPhoto: UIImage?) {
-        if let index = gears.firstIndex(of: gear) {
-            var gear = gears.remove(at: index)
-            gear.name = name
-            gear.detail = detail
-            gear.gearPhoto = gearPhoto
-            
-            gears.insert(gear, at: index)
-            saveToPersistenceStore()
-        }
+    func updateItem(gear: GearList, item: String, quantity: String) {
+        gear.item = item
+        gear.quantity = quantity
+        saveToPersistenceStore()
     }
     
-    func deleteItem(gear: Gear) {
-        guard let index = self.gears.firstIndex(of: gear) else { return }
-        self.gears.remove(at: index)
+    func deleteItem(gear: GearList) {
+        guard let index = self.gearList.firstIndex(of: gear) else { return }
+        self.gearList.remove(at: index)
+        saveToPersistenceStore()
+        
+        
+    }
+    
+    func toggleIsPacked(gear: GearList) {
+        gear.isToggled.toggle()
+        saveToPersistenceStore()
+    }
+    
+    func resetGears() {
+        for gear in gearList {
+            if gear.isToggled {
+                gear.isToggled = false
+            }
+        }
         saveToPersistenceStore()
     }
     
@@ -49,7 +61,7 @@ class GearController {
 
     func saveToPersistenceStore() {
         do {
-            let data = try JSONEncoder().encode(gears)
+            let data = try JSONEncoder().encode(gearList)
             try data.write(to: persistenceStoreURL())
         } catch {
             print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
@@ -59,7 +71,7 @@ class GearController {
     func loadFromPersistenceStore() {
         do{
             let data = try Data(contentsOf: persistenceStoreURL())
-            gears = try JSONDecoder().decode([Gear].self, from: data)
+            gearList = try JSONDecoder().decode([GearList].self, from: data)
         }catch{
             print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
         }

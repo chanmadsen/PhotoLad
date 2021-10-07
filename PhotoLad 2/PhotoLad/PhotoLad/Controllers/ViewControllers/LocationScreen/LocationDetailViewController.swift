@@ -232,20 +232,20 @@ extension LocationDetailViewController: UIImagePickerControllerDelegate, UINavig
         
         let actionSheet = UIAlertController(title: "Select a Photo", message: nil, preferredStyle: .actionSheet)
         
-        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
-            
-            actionSheet.addAction(UIAlertAction(title: "Photos", style: .default, handler: { (_) in
-                
-                imagePickerController.sourceType = UIImagePickerController.SourceType.photoLibrary
-                
-                self.present(imagePickerController, animated: true, completion: nil)
-            }))
-        }
         if UIImagePickerController.isSourceTypeAvailable(.camera){
             
             actionSheet.addAction(UIAlertAction(title: "Camera", style: .default, handler: { (_) in
                 
                 imagePickerController.sourceType = UIImagePickerController.SourceType.camera
+                
+                self.present(imagePickerController, animated: true, completion: nil)
+            }))
+        }
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+            
+            actionSheet.addAction(UIAlertAction(title: "Photos", style: .default, handler: { (_) in
+                
+                imagePickerController.sourceType = UIImagePickerController.SourceType.photoLibrary
                 
                 self.present(imagePickerController, animated: true, completion: nil)
             }))

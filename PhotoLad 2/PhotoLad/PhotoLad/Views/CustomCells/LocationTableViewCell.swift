@@ -28,6 +28,7 @@ class LocationTableViewCell: UITableViewCell {
         locationImageView.image = location?.locationPhoto
         locationNameLabel.text = location?.locationName
         cellView.layer.cornerRadius = 20
+        cellView.layer.opacity = 0.92
         
         
         locationImageView.layer.cornerRadius = 8
