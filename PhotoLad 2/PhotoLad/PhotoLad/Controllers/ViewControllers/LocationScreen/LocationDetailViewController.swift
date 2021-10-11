@@ -119,6 +119,8 @@ class LocationDetailViewController: UIViewController, UITextFieldDelegate {
         }
     }//End of saveFunc
     
+    
+    
     @IBAction func useCurrentLocationButtonTapped(_ sender: Any) {
         guard let location = locationManager.location else { return }
         self.currentCoordinate = location.coordinate

@@ -483,6 +483,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PhotoLad/PhotoLad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = SB3Q7W7XN7;
 				INFOPLIST_FILE = PhotoLad/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -490,6 +491,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChandlerCreates.PhotoLad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -505,6 +507,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PhotoLad/PhotoLad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = SB3Q7W7XN7;
 				INFOPLIST_FILE = PhotoLad/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -512,6 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChandlerCreates.PhotoLad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

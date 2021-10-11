@@ -156,6 +156,9 @@
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="46"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKd-sl-BKL">
                                 <rect key="frame" x="20" y="653" width="388" height="60"/>
@@ -179,6 +182,9 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=compact-widthClass=compact">
                                     <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="11"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="42"/>
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TG3-qW-5aH">
@@ -376,11 +382,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location Title..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jEb-qY-Ibp">
-                                <rect key="frame" x="20" y="148" width="388" height="46"/>
+                                <rect key="frame" x="20" y="130" width="388" height="64"/>
                                 <color key="backgroundColor" red="0.74177377700000002" green="0.785926978" blue="0.785926978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.0039215688589999999" green="0.035294115539999997" blue="0.050980389119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="34"/>
+                                </variation>
                                 <connections>
                                     <action selector="locationNameTextField:" destination="vgf-cw-HmX" eventType="editingDidEnd" id="Ecz-Mq-KV4"/>
                                 </connections>
@@ -484,7 +493,7 @@
                             <constraint firstItem="kwe-td-VXl" firstAttribute="leading" secondItem="hUv-xe-2mA" secondAttribute="leading" constant="8" id="zyb-vH-OIC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="YJl-Ns-eVM">
+                    <navigationItem key="navigationItem" prompt="Location Details" largeTitleDisplayMode="never" id="YJl-Ns-eVM">
                         <rightBarButtonItems>
                             <barButtonItem title="Item" width="5" id="Lf9-uV-AGl">
                                 <imageReference key="image" image="square.and.arrow.up" catalog="system" symbolScale="large"/>
@@ -632,10 +641,7 @@
                         <rect key="frame" x="0.0" y="44" width="428" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

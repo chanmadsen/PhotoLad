@@ -32,7 +32,6 @@ class MapViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-//        getCenterLocation(for: mapView)
         setCurrentLocationLabel(isInitialLaunch: true)
     }
     
@@ -40,7 +39,7 @@ class MapViewController: UIViewController {
         let latitude = mapView.centerCoordinate.latitude
         let longitude = mapView.centerCoordinate.longitude
         delegate?.savePinLocationTapped(with: pinLocationTextView.text, latitude: latitude, longitude: longitude)
-        navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
     }
     
     func updateViews(){
@@ -52,7 +51,6 @@ class MapViewController: UIViewController {
     }
     
     func setupLocationManager(){
-//        locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
     
@@ -64,8 +62,6 @@ class MapViewController: UIViewController {
             
         }
     }
-    
-   
     
     func centerViewOnUserLocation(){
         if let location = locationManager.location?.coordinate {
